@@ -1,0 +1,37 @@
+{
+    "category": "plugins",
+    "display": "JSON Serialize to Url query",
+    "fields": {
+        "AAD": {
+            "caption": "JSON Body",
+            "editor": "DynamicValue",
+            "name": "json_body",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Traditional",
+            "default_val": false,
+            "doc": "A Boolean indicating whether to perform a traditional \"shallow\" serialization.",
+            "editor": "Checkbox",
+            "name": "traditional",
+            "rank": 1
+        }
+    },
+    "return_value": {
+        "AAF": {
+            "caption": "Result Url Encoded",
+            "name": "result_url_encoded",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Result Url Decoded",
+            "name": "result_url_decoded",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

@@ -1,0 +1,18 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "compliance",
+        "2": "technical",
+        "3": "payment",
+        "4": "containers"
+    },
+    "data_tracked": false,
+    "demo_page": "",
+    "description": "This plugin create a serialized version of a JSON payload and will output a url encoded version (url parameters / query).\n\nUse this when you need to dynamically create key/value pair for API that only accept url encoded data (like Stripe).\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/json-serialize-to-url-query-plugin-for-bubble-1728508332931x121984477447211630\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//s3.amazonaws.com/appforest_uf/f1620751927560x883072841497800800/json-file%20%282%29.png",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "JSON Serialize to URL query",
+    "plugin_instructions": "This is a server side action that contain two parameters\nA) JSON Body that you wan't to be url encoded\nB) Traditionnal option. A Boolean indicating whether to perform a traditional \"shallow\" serialization.\n\nWill ouput two results\nA) Encoded (Example: a%5Bone%5D=1)\nb) Decoded (Example: a[one]=1)",
+    "sa_node_version": 18
+}
