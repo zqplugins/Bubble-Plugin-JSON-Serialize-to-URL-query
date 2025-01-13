@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "jsdom": "latest",
+        "jquery": "latest"
+    }
+}
